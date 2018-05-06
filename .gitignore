@@ -1,23 +1,25 @@
-# Windows thumbnail cache files
-Thumbs.db
-ehthumbs.db
-ehthumbs_vista.db
+bin/*
+bin-test/*
+.classpath
+.project
+.settings/*
+builds/*
+doc/*
+*.*~
+OtherDrops-*.jar
+OtherDrops/events/*.jar
+lib/bukkit*.jar
+.eclipse-build
+# Mac filesystem dust
+.DS_Store
+*/.DS_Store
+src/com/gmail/zariust/bukkit/.DS_Store
+src/com/gmail/zariust/bukkit/obevents/.DS_Store
+.metadata/
+.recommenders/
 
-# Folder config file
-Desktop.ini
+# Ignore plugin.yml as generated from plugin.yml.template
+rsrc/plugin.yml
+/.metadata/
 
-# Recycle Bin used on file shares
-$RECYCLE.BIN/
-
-# Windows Installer files
-*.cab
-*.msi
-*.msm
-*.msp
-
-# Windows shortcuts
-*.lnk
-
-# =========================
-# Operating System Files
-# =========================
+.externalToolBuilders/New_Builder.launch
